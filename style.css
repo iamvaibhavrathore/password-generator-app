@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '';
+}
+
+/* global variable of css */
+:root{   
+    --dk-violet: hsl(268, 75,9%);
+}
+
+.container{
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
